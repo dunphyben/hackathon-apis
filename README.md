@@ -124,41 +124,73 @@ https://formspree.io/docs/
 
 
 # Hasura
-#### Quick Description
-<!-- Hasura provides instant backend APIs for your frontend, a simple `git push` to deploy your app and GraphQL APIs on PostgreSQL without any set up. -->
 
+Hasura gives you instant, realtime GraphQL APIs for your JAMstack app. With one-click to deploy on Heroku's free tier, you can get started in less than a minute.
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hasura/graphql-engine-heroku)
+
+You don't need to know how to write a GraphQL schema, resolvers or learn how to use
+a database to get started! Head to the deployed app, create a table, and run CRUD + realtime with GraphQL :)
+
+![Hasura demo GIF](https://raw.githubusercontent.com/hasura/graphql-engine/master/assets/demo.gif)
+
+You can also use Hasura to trigger Lambda/Serverless functions such as [Netlify
+Functions](https://www.netlify.com/docs/functions/) when an event happens on the
+database, for example, send an email when a new user is added.
 
 ### Purpose
-<!-- Almost every dynamic Web or Mobile App requires an API to talk to the Database, Authentication for User Identity, some form of File Management and an easy way to deploy.
 
-Hasura makes your development fast with
-* Instant Backend APIs for Database (GraphQL / HTTP JSON over PostgreSQL)
-* Authentication APIs for multiple providers with a ready to use UI Kit.
-* Filestore APIs to manage file uploads and retreival.
+You should use Hasura if your JAMstack app needs to CRUD data, needs a realtime API,
+or if you want to trigger webhooks on data changes.
 
-Imagine all of these APIs with permissions / access control defined by you for your application. And just doing a `git push hasura master` to deploy your app.
+Here are some examples of how you can use Hasura:
+- CRUD operations with GraphQL ([sample app](https://github.com/hasura/graphql-engine/tree/master/community/examples/todo-auth0-jwt))
+- Building a realtime app (sample apps: [chat](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-chat), [poll](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-poll), [location tracking](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-location-tracking))
+- Sourcing the data for a gatsby site from a postgres database ([sample app](https://github.com/hasura/graphql-engine/tree/master/community/boilerplates/gatsby-postgres-graphql))
+- Triggering browser-based notifications if some data changes ([sample app](https://github.com/hasura/graphql-engine/tree/master/community/examples/serverless-push))
 
-Hasura has quickstart projects so that you don't have to setup the initial project structure / boilerplate code. Head over to [Hasura Hub](https://hasura.io/hub) for cloning a boilerplate of your choice. For example - [hello-react](https://hasura.io/hub/projects/hasura/hello-react). This will be a ready to deploy project which will give you a hasura-app.io domain for your project, HTTPS enabled, HTTP/2 - gzip supported API Gateway so that its production ready. -->
+### Learn in 5 minutes (video tutorials)
 
+Here are a few short videos to help you get started:
 
-#### API Endpoint:
+1. Explore GraphQL queries, mutations and subscriptions with a realtime todo app [(video coming soon)]()
+2. Send an email when a new user is created using netlify functions [(video coming soon)]()
+3. Integrate authentication/authorization with auth0 [(video coming soon)]()
 
-### Challenges
+### Support & help
 
+- Join the [Hasura discord server](https://discord.gg/vBPpJkS). We're super active and someone from the team or the community will help out any time of the day if you have any questions!
+- Tanmai will be hanging around at the hackathon if you're present offline! Do say Hi and ask him as many questions as you'd like:
+
+<img src="https://api.react-finland.fi/media/graphql-finland-2018/speakers/tanmai.jpg" alt="Tanmai" width="200px">
 
 ### Docs
-<!-- - [Getting Started Hasura](https://docs.hasura.io/0.15/manual/getting-started/index.html)
-- [Database](https://docs.hasura.io/0.15/manual/data/index.html)
-- [Authentication](https://docs.hasura.io/0.15/manual/auth/index.html) -->
 
+Hasura docs are available at [`docs.hasura.io`](https://docs.hasura.io).
 
-### Video tutorial
-<!-- - [Introduction to Hasura Data APIs](https://vimeo.com/246571798)
-- [GraphQL APIs over PostgreSQL](https://storage.googleapis.com/hasura-io-assets/website-graphQL-preview.mp4) -->
+Here are some quick links to get you started:
 
+- [Deployment guide on Heroku](https://docs.hasura.io/1.0/graphql/manual/getting-started/heroku-simple.html)
+- [Making your first GraphQL query](https://docs.hasura.io/1.0/graphql/manual/getting-started/first-graphql-query.html)
+- [Creating tables and columns](https://docs.hasura.io/1.0/graphql/manual/schema/index.html)
+- [Querying data through GraphQL](https://docs.hasura.io/1.0/graphql/manual/queries/index.html)
+- [Modifying data using Mutations](https://docs.hasura.io/1.0/graphql/manual/mutations/index.html)
+- [Getting realtime data using Subscriptions](https://docs.hasura.io/1.0/graphql/manual/subscriptions/index.html)
+- [Create Gatsby sites using GraphQL and Postgres](https://github.com/hasura/graphql-engine/tree/master/community/boilerplates/gatsby-postgres-graphql)
+- [Example applications built using Hasura](https://github.com/hasura/graphql-engine/tree/master/community/examples)
+- [Trigger a Lambda function](https://docs.hasura.io/1.0/graphql/manual/getting-started/first-event-trigger.html)
 
+To query data from frontend applications, you can use the [Apollo
+Client](https://www.apollographql.com/docs/react/). Here are some popular clients:
+
+- [React](https://www.apollographql.com/docs/react/essentials/get-started.html)
+- [Angular](https://www.apollographql.com/docs/angular)
+- [Vue](https://www.apollographql.com/docs/react/integrations.html#vue)
+
+  
 ### Prizes
 
+TBA
 
 ***
 
