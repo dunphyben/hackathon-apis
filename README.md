@@ -44,27 +44,43 @@ http://hack2018.netlify.com -->
 
 # Fauna
 #### Quick Description
-
+Cloud database with generous free plan and distributed ACID transactions for global data integrity. Get started easily and scale to worldwide success.
 
 ### Purpose
-
+Stores transactional data like account balances, user profiles, social media content, shopping cart orders, etc. 
 
 ##### API endpoint:
+Install with the netlify command line tool after you have linked your checkout to your app, by running `netlify addons:create fauna` and you can access your database with environment variables like this:
 
+```js
+const client = new faunadb.Client({
+  secret: process.env.FAUNADB_SERVER_SECRET
+});
+```
 
 ### Challenges
 
+A common pattern with Single Page Apps is for the browser to query a cloud database directly. FaunaDB access control supports apps like this. A [demo app using the Netlify Identity service and login widget to authenticate with FaunaDB is available here.](https://github.com/fauna/netlify-faunadb-todomvc) Follow the eight steps in the README and you'll be ready to build your own app.
 
 ### Docs
 
+The [FaunaDB Query API docs](https://app.fauna.com/documentation/reference/queryapi) are a good reference.
+
+For [getting started with the data model, this tutorial is good.](https://app.fauna.com/documentation/howto/crud) And when you log into fauna.com (not required to get started) you can [learn more about the Fauna Shell and other tools here.](https://app.fauna.com/account)
 
 ### Video tutorial
 
+I'll walk through these steps live during the Hackathon keynote.
 
 ### Presentation slides
 
+Coming soon.
 
 ### Prizes
+
+1st: Apple Watch
+2nd: Oculus Go standalone VR headset
+3rd: $100 iTunes Gift card
 
 
 ***
