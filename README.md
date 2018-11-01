@@ -71,19 +71,21 @@ http://hack2018.netlify.com -->
 
 # Formspree
 #### Quick Description
+Connect your form to our endpoint and we’ll email you the submissions. No PHP, Javascript or sign up required.
 
 
 ### Purpose
+Formspree is a form backend, API and email service for HTML forms. It’s the simplest way to add custom contact forms, order forms, or email capture forms to your JAMstack website.
 
 
 ##### API endpoint:
-
+https://formspree.io/your@email.com
 
 ### Challenges
 
 
 ### Docs
-
+https://formspree.io/docs/
 
 ### Video tutorial
 
