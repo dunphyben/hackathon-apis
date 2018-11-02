@@ -221,25 +221,60 @@ TBA
 ***
 
 # Pilon
-#### Quick Description
+Pilon is an **e-commerce platform** designed and built from the ground up for the JAMstack world.  
 
+Our collection of lightweight, API-first, commerce micro-services enable you to quickly build and test innovative commerce experiences that your customers will love. Use Pilon’s pre-built components to make your store whatever you want it to be while still having the flexibility to change it any time you want.
+
+We're **opening** our beta platform to hackathon participants and *we'll be there hacking on Pilon while you're hacking on your projects*.
 
 ### Purpose
 
+E-commerce stuff.
 
-##### API endpoint:
+Use Pilon to add any of these elements to your project:
+* Customer Auth
+* Product Catalog / CMS
+* Cart + Checkout
+* Taking Orders Online
 
+##### API endpoints:
+REST 
+* https://api.pilon.io/v1
+
+GraphQL
+* https://api.pilon.io/v1/graphql
 
 ### Challenges
+Sell something.  Use Pilon's new GraphQL API + Gatsby to build a super fast, super easy, super sweet commerce experience.
 
+To get inspired, [*checkout how fast an e-commerce site can be*](https://rachio.com) when its built with **Gatsby** and a GraphQL API.
 
 ### Docs
 
+Pilon's main documentation can be accessed at:
+* https://docs.pilon.io/
+
+Pilon's API docs are here:
+* https://api.pilon.io/v1/docs
+
+An example project using our REST API can found on GitHub here: 
+* https://github.com/pilon-io/example-fh
 
 ### Video tutorial
 
+### Support & Help
+
+We'll be at a table at the hackathon to provide lots of support and help.  Hit up Garth at our table or in the Pilon channel on Discord.
+
+We'll be there hacking with you the whole time.
 
 ### Prizes
+
+First prize will be a Parrot BEBOP 2 FPV drone.  Pretty sweet!
+
+https://www.parrot.com/us/drones/parrot-bebop-2-fpv
+
+![Parrot BEBOP 2 FPV drone](https://www.parrot.com/files/s3fs-public/styles/product_teaser_display/public/compo_bebop_2_fpv_0.png)
 
 ***
 
